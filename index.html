@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <!-- Menú de navegación  -->
+    <nav class="navbar navbar-expand-md navbar-dark position-absolute w-100">
+        <img src="img/camerawhite.png" alt="logo" style="width:60px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="menu-principal">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">+ Fotografía</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portada  -->
+    <div>
+        <p class="titulo">Galeria</p>
+        <div class="portada"></div>
+    </div>
+
+    <!-- Frase  -->
+    <div class="row bg-dark text-white m-0 espacios">
+        <div class="col-12 col-md-8 col-lg-7">
+            <p class="font-weight-bold pb-2">Frase</p>
+            <p>“La fotografía ayuda a las personas a ver”.
+                “El desafío para mí ha sido en primer lugar, ver las cosas como son, ya sea un retrato, una calle de
+                ciudad, o una pelota. En una palabra, he tratado de ser objetiva. No me refiero a la objetividad de una
+                máquina, sino a la de un ser humano sensible con su misterioso y personal criterio. El segundo reto ha
+                sido el de imponer el orden en las cosas que veo, para proporcionar el contexto visual y el marco
+                intelectual, lo que para mí es el arte de la fotografía”.
+            </p>
+            <small class="text-white-50">- Berenice Abbot</small>
+        </div>
+    </div>
+
+    <!-- Corousel -->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h1 class="pt-5 pb-4 text-center font-weight-bold">Paisajes</h1>
+                <div id="paisajes" class="swiper-container corousel-div">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url('img/paisaje1.jpg');">
+                            <a id="img1" class="w-100 h-100" data-gall="myGallery" href="img/paisaje1.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 1</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje2.jpg');">
+                            <a id="img2" class="w-100 h-100" data-gall="myGallery" href="img/paisaje2.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 2</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje3.jpg');">
+                            <a id="img3" class="w-100 h-100" data-gall="myGallery" href="img/paisaje3.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 3</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje4.jpg');">
+                            <a id="img4" class="w-100 h-100" data-gall="myGallery" href="img/paisaje4.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 4</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje5.jpg');">
+                            <a id="img5" class="w-100 h-100" data-gall="myGallery" href="img/paisaje5.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 5</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje6.jpg');">
+                            <a id="img6" class="w-100 h-100" data-gall="myGallery" href="img/paisaje6.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 6</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje7.jpg');">
+                            <a id="img7" class="w-100 h-100" data-gall="myGallery" href="img/paisaje7.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 7</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide" style="background-image: url('img/paisaje8.jpg');">
+                            <a id="img8" class="w-100 h-100" data-gall="myGallery" href="img/paisaje8.jpg">
+                                <div class="middle">
+                                    <div class="texto-centrado">
+                                        <h4>Paisaje 8</h4>
+                                        <div class="linea"></div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum
+                                            vulputate rutrum. Cras eget ligula porttitor eros posuere auctor. Aliquam in
+                                            augue tempor, vehicula magna sed, consequat risus.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white" style="margin-top: 100px;">
+        <div class="container mt-5 py-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center py-3">© 2020 Copyright: hola.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+            $('#img1').venobox();
+            $('#img2').venobox();
+            $('#img3').venobox();
+            $('#img4').venobox();
+            $('#img5').venobox();
+            $('#img6').venobox();
+            $('#img7').venobox();
+            $('#img8').venobox();
+
+        });
+
+    </script>
+</body>
+
+</html>
